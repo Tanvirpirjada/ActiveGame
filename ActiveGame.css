@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    display: flex;
+    width: 100vw;
+    background-color: rgba(113, 252, 206, 0.352);
+}
+
+
+.left{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+    background-color: rgb(240, 255, 254) ;
+    border-radius: 30px;
+}
+
+.left img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+.user{
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(132, 139, 137);
+}
+
+i{
+    display: flex;
+    margin-right: 35px;
+    size: 2rem;
+
+}
+
+.options{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(97, 127, 157);
+}
+
+.end{
+    margin-top: 60px;
+    margin-bottom: 5px;
+    display: flex;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(163, 237, 232);
+}
+
+.end p{
+    font-weight:bolder;
+    color: white;
+    font-size: 1.7rem;
+}
+
+.end img{
+    width: 90px;
+    height: 90px;
+}
+
+
+.right{
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+.title{
+    font-size: 1.8rem;
+    color: rgb(33, 32, 40);
+}
+
+.titleBar{
+    width: 420px;
+    height: 25px;
+    background-color: rgb(240, 255, 254) ;
+    border-radius: 10px;
+}
+
+.gameStatus{
+    margin-top: 50px;
+}
+
+.game{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 700px;
+    height: 130px;
+    background-color: rgb(234, 255, 254) ;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0px 10px 15px black;
+}
+
+.game img{
+    width: 130px;
+    height: 100px;
+    border-radius: 20%;
+}
+
+.game h3, h5{
+    line-height: 2rem;
+    color: rgb(104, 100, 147);
+}
+
+
+.progressBar{
+    width: 420px;
+    height: 25px;
+    background-color: rgb(67, 114, 111) ;
+    border-radius: 12px;
+}
